@@ -33,14 +33,10 @@
     <version>7</version>
   </parent>
   <distributionManagement>
-      <repository>
-          <id>github-release</id>
-          <url>https://maven.pkg.github.com/mykhailokulakov/kolobok</url>
-      </repository>
-      <snapshotRepository>
-          <id>github</id>
-          <url>https://maven.pkg.github.com/mykhailokulakov/kolobok</url>
-      </snapshotRepository>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/mykhailokulakov/kolobok</url>
+    </repository>
   </distributionManagement>
   
   <dependencies>
